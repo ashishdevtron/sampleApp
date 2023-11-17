@@ -1,3 +1,3 @@
-FROM vimal13/apache-webserver-php
+FROM nginx:latest
 COPY . /var/www/html
 EXPOSE 80
