@@ -1,3 +1,3 @@
 FROM nginx:latest
 COPY . /var/www/html
-EXPOSE 80 
+EXPOSE 80  
